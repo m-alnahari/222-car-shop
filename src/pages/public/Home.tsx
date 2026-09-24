@@ -192,7 +192,6 @@ function Home() {
             <CarModel />
           </div>
         </div>
-
         {/* HERO BOTTOM TEXT */}
         <div className="absolute bottom-7 left-0 right-0 z-20 px-4 sm:bottom-10 sm:px-6">
           <div className="mx-auto flex max-w-[1500px] items-end justify-between">
@@ -215,12 +214,6 @@ function Home() {
             </a>
 
           </div>
-          <Link
-            to="/login"
-            className="rounded-lg bg-white px-6 py-3 text-black font-semibold hover:bg-neutral-200 transition"
-          >
-            Login
-          </Link>
         </div>
       </section>
 
