@@ -215,6 +215,12 @@ function Home() {
             </a>
 
           </div>
+          <Link
+            to="/login"
+            className="rounded-lg bg-white px-6 py-3 text-black font-semibold hover:bg-neutral-200 transition"
+          >
+            Login
+          </Link>
         </div>
       </section>
 
